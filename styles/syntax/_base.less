@@ -9,7 +9,13 @@
     color: @mono-3;
   }
 }
-
+.syntax--new {
+  .syntax--entity {
+      &.syntax--name.syntax--type {
+        color: @hue-15;
+      }
+  }
+}
 .syntax--entity {
 
   &.syntax--name.syntax--type {
@@ -25,24 +31,24 @@
   color: @hue-2;
 
   &.syntax--control {
-    color: @hue-4;
-  }
-
-  &.syntax--operator {
     color: @hue-6-2;
   }
 
+  &.syntax--operator {
+    color: @hue-16;
+  }
+
   &.syntax--other.syntax--special-method {
-    color: @hue-9;
+    color: @hue-1;
   }
 
   &.syntax--other.syntax--unit {
-    color: @hue-11;
+    color: @hue-13;
   }
 }
 
 .syntax--storage {
-  color: @hue-13;
+  color: @hue-4;
 
   &.syntax--type {
     &.syntax--annotation,
@@ -124,7 +130,7 @@
     &.syntax--separator,
     &.syntax--seperator,
     &.syntax--array {
-      color: @hue-11;
+      color: @hue-3;
     }
 
     &.syntax--heading,
@@ -145,7 +151,7 @@
 
   &.syntax--section {
     &.syntax--embedded {
-      color: @hue-5-2;
+      color: @hue-6-2;
     }
 
     &.syntax--method,
@@ -158,11 +164,11 @@
 
 .syntax--support {
   &.syntax--class {
-    color: @hue-6-2;
+    color: @hue-15;
   }
 
   &.syntax--type {
-    color: @hue-1;
+    color: @hue-10;
   }
 
   &.syntax--function  {
@@ -176,53 +182,61 @@
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @hue-2;
+    color: @hue-5;
   }
 
   &.syntax--name.syntax--class,
   &.syntax--name.syntax--type.syntax--class {
-    color: @hue-6-2;
+    color: @hue-15;
   }
 
   &.syntax--name.syntax--section {
-    color: @hue-2;
+    color: @hue-3;
   }
 
   &.syntax--name.syntax--tag {
-    color: @hue-5;
+    color: @hue-6-2;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @hue-6;
+    color: @hue-12;
 
     &.syntax--id {
-      color: @hue-2;
+      color: @hue-5-2;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @hue-6-2;
+    color: @hue-15;
 
     &.syntax--body {
-      color: @mono-1;
+      color: @mono-2;
     }
   }
-
+  .syntax--brace {
+    color: @hue-3;
+  }
+  .syntax--punctuation {
+    color:@hue-16;
+  }
   &.syntax--method-call,
   &.syntax--method {
-    color: @mono-1;
+    color: @hue-9;
+  }
+  &.syntax--object.syntax--member {
+      color: @hue-17;
   }
 
   &.syntax--definition {
     &.syntax--variable {
-      color: @hue-5;
+      color: @hue-6;
     }
   }
 
   &.syntax--link {
-    color: @hue-6;
+    color: @hue-1;
   }
 
   &.syntax--require {
@@ -239,7 +253,7 @@
   }
 
   &.syntax--tag {
-    color: @mono-1;
+    color: @hue-6-2;
   }
 }
 
@@ -275,7 +289,7 @@
   }
 
   &.syntax--deleted {
-    color: @hue-5;
+    color: @hue-7;
   }
 
   &.syntax--italic {
@@ -284,10 +298,10 @@
   }
 
   &.syntax--heading {
-    color: @hue-5;
+    color: @hue-12;
 
     .syntax--punctuation.syntax--definition.syntax--heading {
-      color: @hue-2;
+      color: @hue-16;
     }
   }
 
