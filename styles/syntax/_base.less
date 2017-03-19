@@ -16,6 +16,19 @@
       }
   }
 }
+.syntax--import {
+    .syntax--keyword.syntax--control {
+        color: @hue-2;
+    }
+    .syntax--block {
+        .syntax--variable {
+            color: @hue-1;
+        }
+        .syntax--punctuation {
+            color: @hue-1;
+        }
+    }
+}
 .syntax--entity {
 
   &.syntax--name.syntax--type {
@@ -164,7 +177,7 @@
 
 .syntax--support {
   &.syntax--class {
-    color: @hue-15;
+    color: @hue-2;
   }
 
   &.syntax--type {
