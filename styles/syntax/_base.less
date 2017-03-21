@@ -115,6 +115,7 @@
 }
 
 .syntax--string {
+  text-decoration:none;
   color: @hue-8;
 
 
@@ -170,7 +171,7 @@
     &.syntax--method,
     &.syntax--class,
     &.syntax--inner-class {
-      color: @mono-1;
+      color: @hue-6-2;
     }
   }
 }
@@ -224,6 +225,10 @@
   &.syntax--class {
     color: @hue-15;
 
+    .syntax--property {
+      color: @hue-17;
+    }
+
     &.syntax--body {
       color: @mono-2;
     }
@@ -268,10 +273,13 @@
   &.syntax--tag {
     color: @hue-6-2;
   }
+  &.syntax--children {
+    color: @mono-2;
+  }
 }
 
 .syntax--underline {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .syntax--none {

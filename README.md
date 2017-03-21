@@ -1,11 +1,9 @@
-## One Dark Syntax theme
+## Rocket Syntax theme
 
-![one-dark-syntax](https://cloud.githubusercontent.com/assets/378023/7783203/49271ef6-0174-11e5-8eb1-d80b8d34a0e3.png)
+![rocket-syntax](http://www.alan-warren.com/images/example.jpg)
 
-> The font used in the screenshot is [Fira Mono](https://github.com/mozilla/Fira).
+> The font used in the screenshot is [Hack](https://github.com/chrissimpkins/Hack).
 
-There is also a matching [UI theme](https://atom.io/themes/one-dark-ui).
+### Note
 
-### Install
-
-This theme is installed by default with Atom and can be activated by going to the __Settings > Themes__ section and selecting it from the __Syntax Themes__ drop-down menu.
+This is my custom vim color theme, ported to Atom. The theme was originally inspired by Eclipse Media's TextMate theme "ECLM", and the vim variation of this theme titled "ECLM Wombat
